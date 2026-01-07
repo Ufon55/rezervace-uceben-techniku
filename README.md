@@ -1,1 +1,0 @@
-# rezervace-uceben-techniku
