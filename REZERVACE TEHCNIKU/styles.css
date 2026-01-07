@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+
+.card p{
+    color: orangered;
+}
+
+.card{
+    width: 200px;
+    padding: 20px 30px;
+}
+
+.card h2 {
+    color: wheat;
+    
+}
+
+.card button{
+    color: wheat;
+    background-color: transparent;
+    border: 1px solid gold;
+    padding: 5px 50px;
+}
