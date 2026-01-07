@@ -5,14 +5,14 @@
 
 h1 {
     text-align: center;
+    color: ;
 }
 
 .cely{
     height: 100vh;
-    padding: 0;
-    margin: 0;
-    display: block;
-    background-image: url("https://www.ggs-interior.com/uploads/articles/73/banner-20.png");
+ padding: 30px;
+ display: block;
+    background-image: url("https://workhaus.ca/wp-content/uploads/2021/09/Private-Office-5-1024x684.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
