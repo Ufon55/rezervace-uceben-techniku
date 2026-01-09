@@ -5,22 +5,26 @@
 
 h1 {
     text-align: center;
-    color: ;
 }
 
 .cely{
     height: 100vh;
- padding: 30px;
- display: block;
+    padding: 30px;
+    display: block;
     background-image: url("https://workhaus.ca/wp-content/uploads/2021/09/Private-Office-5-1024x684.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
+
 .card_container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 400px;
+    
+
 }
 
 .card p{
@@ -29,17 +33,20 @@ h1 {
 
 .card{
     width: 200px;
+    height: 120px;
+    text-align: center;
     padding: 20px 30px;
+    
 }
 
 .card h2 {
-    color: wheat;
+    color: black;
     
 }
 
 .card button{
-    color: wheat;
+    color: black;
     background-color: transparent;
-    border: 1px solid gold;
+    border: 1px solid black;
     padding: 5px 50px;
 }
