@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="shown">
         <div>
@@ -13,49 +15,76 @@
         </div>
 
         <div>
-           <h3></h3>
+            <h3></h3>
         </div>
-              <div class="box">
-                  <div class="card_container">
-                      <div class="card">
-                        <h1>Technici</h1>
-                         <p>Rezervace techniků</p>
+        <div class="box">
+            <div class="card_container">
+                <div class="card">
+                    <h1>Technici</h1>
+                    <p>Rezervace techniků</p>
                     <button id="rezervaceT">Rezervovat</button>
-                      </div>
+                </div>
 
-                      <div class="card">
-                        <h1>Místnosti</h1>
-                       <p>Rezervace místnosti</p>
-                        <button id="rezervaceM">Rezervovat</button>
-                      </div>
-                  </div>
-         </div>
+                <div class="card">
+                    <h1>Místnosti</h1>
+                    <p>Rezervace místnosti</p>
+                    <button id="rezervaceM">Rezervovat</button>
+                </div>
+            </div>
+        </div>
 
     </div>
 
-        <div class="hidden">
-             <div class="technici" hidden>
-                    <table border="1">
-                        <tr>
-                            <th>Technici</th>
-                        </tr>
+    <div class="hidden">
+        <div class="technici" hidden>
+            <table border="1">
+                <tr>
+                    <th>Technici</th>
+                    <th>Jméno</th>
+                    <th>Věk</th>
+                    <th>Volný</th>
+                </tr>
 
-                         <tr>
-                            <th>Technik 1</th>
-                            <th>Technik 2</th>
-                            <th>Technik 3</th>
-                            <th>Technik 4</th>
-                          </tr>
+                <tr>
+                    <th>Technik 1</th>
+                    <th>Ondřej</th>
+                    <th>25 let</th>
+                    <th>Ano</th>
+                    <th id="Ondrej"><button>Rezervovat</button></th>
+                </tr>
 
-                          <tr></tr>
-                      </table>
-             </div>
+                <tr>
+                    <th>Technik 2</th>
+                    <th>Richard</th>
+                    <th>30 let</th>
+                    <th>Ano</th>
+                    <th><button id="Richard">Rezervovat</button></th>
+                </tr>
 
-             <div class="mistnosti" hidden>
+                <tr>
+                    <th>Technik 3</th>
+                    <th>Lukáš</th>
+                    <th>67 let</th>
+                    <th>Ano</th>
+                    <th><button id="Lukas">Rezervovat</button></th>
+                </tr>
 
-             </div>
+                <tr>
+                    <th>Technik 4</th>
+                    <th>Martin</th>
+                    <th>200 let</th>
+                    <th>Ano</th>
+                    <th><button id="Martin">Rezervovat</button></th>
+                </tr>
+            </table>
         </div>
+
+        <div class="mistnosti" hidden>
+
+        </div>
+    </div>
 
 </body>
 <script src="java.js"></script>
+
 </html>
