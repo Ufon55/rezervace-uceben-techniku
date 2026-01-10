@@ -1,9 +1,11 @@
 const rezervaceT = document.getElementById("rezervaceT")
 const rezervaceM = document.getElementById("rezervaceM")
-const Ondrej = document.getElementById("Ondrej")
-const Richard = document.getElementById("Richard")
-const Lukas = document.getElementById("Lukas")
-const Martin = document.getElementById("Martin")
+const Ondrej_button = document.getElementById("Ondrej")
+const Richard_button = document.getElementById("Richard")
+const Lukas_button = document.getElementById("Lukas")
+const Martin_button = document.getElementById("Martin")
+
+const zpetButtons = document.querySelectorAll(".Zpet")
 
 const technici = document.querySelector(".technici")
 const mistnosti = document.querySelector(".mistnosti")
@@ -21,24 +23,38 @@ rezervaceM.addEventListener("click", () => {
 
 
 
-Ondrej.addEventListener("click", () => {
+Ondrej_button.addEventListener("click", () => {
     shown.classList.remove("blur")
     technici.classList.remove("show")
+    document.getElementById("1").textContent = "Ne"
+    Ondrej_button.disabled = true
+})
+
+Richard_button.addEventListener("click", () => {
+    shown.classList.remove("blur")
+    technici.classList.remove("show")
+    document.getElementById("2").textContent = "Ne"
+    Richard_button.disabled = true
 
 })
 
-Richard.addEventListener("click", () => {
+Lukas_button.addEventListener("click", () => {
     shown.classList.remove("blur")
     technici.classList.remove("show")
+    document.getElementById("3").textContent = "Ne"
+    Lukas_button.disabled = true
 })
 
-Lukas.addEventListener("click", () => {
+Martin_button.addEventListener("click", () => {
     shown.classList.remove("blur")
     technici.classList.remove("show")
+    document.getElementById("4").textContent = "Ne"
+    Martin_button.disabled = true
 })
 
-Martin.addEventListener("click", () => {
+zpetButtons.addEventListener("click", () => {
     shown.classList.remove("blur")
     technici.classList.remove("show")
+    mistnosti.classList.remove("show")
 })
 
