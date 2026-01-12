@@ -11,7 +11,8 @@ const UC2_button = document.getElementById("UC2")
 const UC3_button = document.getElementById("UC3")
 const UC4_button = document.getElementById("UC4")
 
-const zpetButtons = document.getElementById("btnZpet")
+const btn1 = document.getElementById("ZpetbtnT")
+const btn2 = dokument.getElementById("ZpetbtnM)
 
 const technici = document.querySelector(".technici")
 const mistnosti = document.querySelector(".mistnosti")
@@ -87,9 +88,13 @@ UC4_button.addEventListener("click", () => {
 })
 
 
-zpetButtons.addEventListener("click", () => {
+btn1.addEventListener("click", () => {
     shown.classList.remove("blur")
     technici.classList.remove("show")
+})
+
+btn2.addEventListener("click", () => {
+    shown.classList.remove("blur")
     mistnosti.classList.remove("show")
 })
 
