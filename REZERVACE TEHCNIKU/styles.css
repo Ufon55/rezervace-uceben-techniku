@@ -64,7 +64,12 @@ h1 {
     z-index: 10;
 }
 
-.Zpet {
+#ZpetbtnT {
+    margin-left: 90%;
+    margin-top: 10px;
+}
+
+#ZpetbtnM {
     margin-left: 90%;
     margin-top: 10px;
 }
