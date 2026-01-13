@@ -12,7 +12,7 @@ const UC3_button = document.getElementById("UC3")
 const UC4_button = document.getElementById("UC4")
 
 const btn1 = document.getElementById("ZpetbtnT")
-const btn2 = dokument.getElementById("ZpetbtnM)
+const btn2 = document.getElementById("ZpetbtnM")
 
 const technici = document.querySelector(".technici")
 const mistnosti = document.querySelector(".mistnosti")
